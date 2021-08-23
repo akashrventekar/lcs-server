@@ -1,5 +1,5 @@
 # lcs-server
-Simple API that allows users to request Longest Common Substring (LCS) given a list of strings
+Simple Python Flask API that allows users to request Longest Common Substring (LCS) given a list of input strings
 
 ## Solve LCS problem via HTTP POST
 
