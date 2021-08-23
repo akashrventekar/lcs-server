@@ -64,6 +64,7 @@ requests and verifying that the responses are appropriate. This can also be chan
 ## Assumptions
 * The input will work for digits and special characters as well. No specific validation is put in to filter out digits or special characters
 * The input will be converted to lowercase to make sure that the program is case-insensitive and the output will be returned as lowercase
+* Deployment info/CICD info is not present as this is going to be run on local for now. If this needs to be deployed to an AWS service, I can add it if required.
 
 ## Tests
 pytests are present in tests folder
