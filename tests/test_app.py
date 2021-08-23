@@ -1,6 +1,7 @@
 import pytest
 
-from app import app, is_substring, longest_common_substrings
+from app import app
+from helpers.helpers import is_substring, longest_common_substrings
 
 
 @pytest.fixture
